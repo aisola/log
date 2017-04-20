@@ -19,7 +19,7 @@ go programs.
     import "github.com/aisola/log"
 
     func main() {
-    	 log.Info("The program is running")
+         log.Info("The program is running")
          log.Infof("This is the %s message", "2nd")
          log.Debug("I'll only be written to the log if you've told the logger to.")
          log.Debugf("Hello, %s!", "world")
