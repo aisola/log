@@ -7,6 +7,7 @@ import (
 	"github.com/felixge/httpsnoop"
 )
 
+// LogRequests is a the default RequestLogger which will write to Stdout
 var LogRequests = NewRequestLogger(log.DefaultLogger).Middleware
 
 // RequestLogger creates a simple net/http middleware which captures metrics
