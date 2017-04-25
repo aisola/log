@@ -8,6 +8,13 @@ running into [this article](https://dave.cheney.net/2015/11/05/lets-talk-about-l
 This library is intended to only have two levels and be very a uncomplicated logger for
 go programs.
 
+### Warning
+
+Like any other random code you find on the internet, this package should not be relied
+upon in important, production systems without thorough testing to ensure that it meets
+your needs. I wrote this for handling my simple needs and I never expect that it will
+really be useful for anybody else. It has no tests, and has barely been used.
+
 ## Installing
 
     go get -u -v github.com/aisola/log
