@@ -2,6 +2,10 @@
 
 A logging library because all other logging libraries are too complicated.
 
+[![Code Climate](https://codeclimate.com/github/aisola/log/badges/gpa.svg)](https://codeclimate.com/github/aisola/log)
+[![Go Report Card](https://goreportcard.com/badge/github.com/aisola/log)](https://goreportcard.com/report/github.com/aisola/log)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 This comes from searching around for a not complicated logging library and
 running into [this article](https://dave.cheney.net/2015/11/05/lets-talk-about-logging).
 
